@@ -81,6 +81,16 @@
 			if ( isset( $panel_links ) ) : ?>
 			<div id="site-navigation-wrapper">
 				<nav id="site-navigation" class="main-navigation" role="navigation">
+
+                    <!-- A fake / hidden checkbox is used as click reciever,
+                    so you can use the :checked selector on it.  -->
+                    <input type="checkbox"/>
+
+                    <!-- Some spans to act as a hamburger. -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
 					<ul id="primary-menu" class="menu nav-menu">
 						<?php
 						foreach ( $panel_links as $key => $link ) :
@@ -95,7 +105,6 @@
 							);
 						endforeach;
 						?>
-						<li id="more-menu" class="menu-item menu-item-has-children"><a href="#"><span class="screen-reader-text">More</span></a><ul class="sub-menu"></ul></li>
 					</ul>
 				</nav><!-- #site-navigation -->
 			</div>
