@@ -133,6 +133,10 @@ Source: http://www.genericons.com
 
 == Changelog ==
 
+= 4 April 2020 =
+* Changed mobile menu to a hamburger like CSS menu.
+  Here is an example used: https://codepen.io/erikterwan/pen/EVzeRP
+
 = 4 February 2020 =
 * Disable zooming into site logo on hover
 
