@@ -1052,9 +1052,7 @@ a:active {
 	}
 
 	.main-navigation {
-		background: #2d2a26;
-		border-bottom: 1px solid #49443d;
-		border-top: 1px solid #49443d;
+		background-color:rgba(0, 0, 0, 0.2);
 		clear: both;
 		display: block;
 		font-family: Karla, Arial, sans-serif;
@@ -1111,7 +1109,6 @@ a:active {
 
 	.main-navigation {
 		left: 50%;
-		max-width: 1400px;
 		position: relative;
 		-webkit-transform: translateX(-50%);
 		    -ms-transform: translateX(-50%);
