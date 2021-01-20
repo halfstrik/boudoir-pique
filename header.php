@@ -76,6 +76,8 @@
 					wp_reset_postdata();
 				endif;
 			endforeach;
+			// Adding blog link
+            $panel_links[] = '<li><a href="/?author=2">Blog</a></li>';
 
 			// Output our menu only if we actually have menu items
 			if ( isset( $panel_links ) ) : ?>

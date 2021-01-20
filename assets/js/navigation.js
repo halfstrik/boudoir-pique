@@ -12,6 +12,15 @@
 		return;
 	}
 
+	// Close mobile menu on mobile after clicking anchor link
+	var menuLinks = container.querySelectorAll('a');
+	var closeInput = container.querySelector('input');
+	for (i = 0; i < menuLinks.length; i++) {
+		menuLinks[i].addEventListener('click', function() {
+			closeInput.checked = false;
+		});
+	}
+
 	// Here, we're going to look for the priority plus menu item to determine if we're on a small screen
 	moreMenu = document.getElementById( 'more-menu' );
 	if ( ! moreMenu ) {
